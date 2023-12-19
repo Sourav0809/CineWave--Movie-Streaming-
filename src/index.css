@@ -1,3 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+/* linear gradient style  */
+.banner-fade-bottom {
+    background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.61), #111);
+}
+
+
+/* CUSTOMISING SWIPPER JS ARROWS  */
+:root {
+
+    --swiper-navigation-size: 15px !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    background-color: white !important;
+    background-color: rgb(244, 240, 240) !important;
+    right: .5rem !important;
+    padding: 1rem !important;
+    color: #000 !important;
+    fill: black !important;
+    stroke: black !important;
+    top: var(--swiper-navigation-top-offset, 50%) !important;
+
+}
+
+.swiper-scrollbar-horizontal {
+    top: .1rem !important;
+    background-color: white !important;
+}
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                           DISABLING THE SCROLLBAR                          */
+/* -------------------------------------------------------------------------- */
+
+#row-posters::-webkit-scrollbar {
+    display: none;
+}
+
+.row-poster {
+    transition: transform 450ms;
+}

@@ -27,9 +27,9 @@ const Nav = () => {
   return (
     <>
       <nav
-        className={` flex justify-between sticky top-0 transition-all ${
-          headerBg ? "bg-black" : "bg-customBlack"
-        } items-center text-white font-custom py-2 px-20`}
+        className={` flex justify-between fixed w-full z-30 top-0 transition-all ${
+          headerBg && "bg-black"
+        } items-center text-red-500 font-custom py-2 px-20`}
       >
         <div className=" flex justify-center items-center gap-2">
           <h1 className=" text-2xl font-semibold">Cinewave</h1>
@@ -40,53 +40,6 @@ const Nav = () => {
           <FaHouseUser className=" text-4xl" />
         </div>
       </nav>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <h1>hello</h1>
     </>
   );
 };
