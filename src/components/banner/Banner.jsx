@@ -7,7 +7,7 @@ const Banner = ({ img, movieTitle, description }) => {
   return (
     <>
       <div
-        className={` bg-center bg-cover relative w-full h-[30rem] object-contain text-white`}
+        className={` bg-cover bg-no-repeat relative w-full h-[30rem] object-contain text-white`}
         style={{
           backgroundImage: `url('https://image.tmdb.org/t/p/original/${img}')`,
         }}

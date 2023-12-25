@@ -13,7 +13,7 @@
 /* CUSTOMISING SWIPPER JS ARROWS  */
 :root {
 
-    --swiper-navigation-size: 15px !important;
+    --swiper-navigation-size: 30px !important;
 }
 
 .swiper-button-next,
@@ -21,11 +21,15 @@
     background-color: white !important;
     background-color: rgb(244, 240, 240) !important;
     right: .5rem !important;
-    padding: 1rem !important;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
     color: #000 !important;
     fill: black !important;
     stroke: black !important;
     top: var(--swiper-navigation-top-offset, 50%) !important;
+    border-radius: 5px !important;
 
 }
 

@@ -1,15 +1,12 @@
 import React from "react";
 import "./App.css";
 import Nav from "./components/nav/Nav";
-import BannerContainer from "./components/banner/BannerContainer";
-import RowsContainer from "./components/rowscontainer/RowsContainer";
+import MyRoutes from "./routes/MyRoutes";
 
 const App = () => {
   return (
     <div className="app">
-      <Nav />
-      <BannerContainer />
-      <RowsContainer />
+      <MyRoutes />
     </div>
   );
 };

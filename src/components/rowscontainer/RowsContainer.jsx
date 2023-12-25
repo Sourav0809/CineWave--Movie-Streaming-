@@ -7,43 +7,17 @@ const RowsContainer = () => {
       <Row
         title={"NETFLIX ORGINALS "}
         fetchUrl={requestUrls.fetchNetflixOriginals}
-        isLargeRow={{}}
       />
-      <Row
-        title={"Tranding Now "}
-        fetchUrl={requestUrls.fetchTrending}
-        isLargeRow={{}}
-      />
-      <Row
-        title={"Top Rated "}
-        fetchUrl={requestUrls.fetchTopRated}
-        isLargeRow={{}}
-      />
-      <Row
-        title={"Action Movies "}
-        fetchUrl={requestUrls.fetchActionMovies}
-        isLargeRow={{}}
-      />
-      <Row
-        title={"Comedy Movies "}
-        fetchUrl={requestUrls.fetchComedyMovies}
-        isLargeRow={{}}
-      />
-      <Row
-        title={"Horror Movies "}
-        fetchUrl={requestUrls.fetchHorrorMovies}
-        isLargeRow={{}}
-      />
+      <Row title={"Tranding Now "} fetchUrl={requestUrls.fetchTrending} />
+      <Row title={"Top Rated "} fetchUrl={requestUrls.fetchTopRated} />
+      <Row title={"Action Movies "} fetchUrl={requestUrls.fetchActionMovies} />
+      <Row title={"Comedy Movies "} fetchUrl={requestUrls.fetchComedyMovies} />
+      <Row title={"Horror Movies "} fetchUrl={requestUrls.fetchHorrorMovies} />
       <Row
         title={"Romance Movies "}
         fetchUrl={requestUrls.fetchRomanceMovies}
-        isLargeRow={{}}
       />
-      <Row
-        title={"Documentaries"}
-        fetchUrl={requestUrls.fetchDocumentaries}
-        isLargeRow={{}}
-      />
+      <Row title={"Documentaries"} fetchUrl={requestUrls.fetchDocumentaries} />
     </div>
   );
 };

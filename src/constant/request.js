@@ -1,4 +1,4 @@
-const API_KEY = "40f39cf1b0790f6b3c127527fee6c4bc"
+export const API_KEY = "40f39cf1b0790f6b3c127527fee6c4bc"
 
 const requestUrls = {
 
@@ -11,6 +11,7 @@ const requestUrls = {
     fetchRomanceMovies: `https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}&with_genres=10749`,
     fetchDocumentaries: `https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}&with_genres=99`
 }
+
 
 
 export default requestUrls
